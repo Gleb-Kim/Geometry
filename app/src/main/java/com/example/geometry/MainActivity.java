@@ -58,7 +58,12 @@ public class MainActivity extends AppCompatActivity {
         ft.commit();
     }
 
-   /* @Override
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
+
+    /* @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
